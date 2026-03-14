@@ -1,0 +1,26 @@
+{
+  "cell_size": 2.0,
+  "entry_point": [2, 2],
+  "dump_polygon": {
+    "vertices": [
+      [0, 0],
+      [90, 5],
+      [110, 35],
+      [100, 75],
+      [70, 100],
+      [20, 92],
+      [5, 55]
+    ],
+    "max_height": 20,
+    "obstacles": [
+      [40, 40, 6],
+      [75, 60, 5]
+    ]
+  },
+  "trucks": [
+    { "id": 1, "payload": 100, "turn_radius": 12 },
+    { "id": 2, "payload": 120, "turn_radius": 14 },
+    { "id": 3, "payload": 90, "turn_radius": 10 },
+    { "id": 4, "payload": 110, "turn_radius": 11 }
+  ]
+}
